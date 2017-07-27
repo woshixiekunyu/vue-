@@ -6,7 +6,6 @@ vue.js的项目的访问链接如何去掉 # 呢？
         'history'  const router = new VueRouter({   
             mode: 'history',   
             routes: [...] 
-            
           }) 
           
 2.以上步骤还不够，因为页面刷新会出现404错误，还需要配置服务器
